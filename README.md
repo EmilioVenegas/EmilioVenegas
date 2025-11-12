@@ -1,9 +1,5 @@
 # Hi, I'm Emilio Venegas 👋
 
-I am a Biosciences student at Tecnológico de Monterrey with a strong focus on computational biology, 3D printing, and AI in medicine.
-
----
-
 <table width="100%">
   <tr>
     <td width="50%" valign="top">

@@ -51,12 +51,13 @@
       <td valign="top">
         <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch" style="vertical-align: middle; margin-right: 5px;" /> PyTorch<br/>
         <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" style="vertical-align: middle; margin-right: 5px;" /> TensorFlow<br/>
-        <img width="22px" src="https://user-images.githubusercontent.com/54692916/131591083-ca1f26d6-2546-4e1d-a41e-3b2dd9f65c33.png" alt="LangChain" style="vertical-align: middle; margin-right: 5px;" /> LangChain
+        <img width="22px" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langgraph-color.png" alt="LangChain" style="vertical-align: middle; margin-right: 5px;" /> Langgraph
       </td>
       <td valign="top">
         <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" style="vertical-align: middle; margin-right: 5px;" /> React<br/>
         <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="FastAPI" style="vertical-align: middle; margin-right: 5px;" /> FastAPI<br/>
-        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" style="vertical-align: middle; margin-right: 5px;" /> Node.js
+        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" style="vertical-align: middle; margin-right: 5px;" /> Node.js<br/>
+        <img width="22px" src="https://user-images.githubusercontent.com/54692916/131591083-ca1f26d6-2546-4e1d-a41e-3b2dd9f65c33.png" alt="LangChain" style="vertical-align: middle; margin-right: 5px;" /> Flask
       </td>
       <td valign="top">
         <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fusion/fusion-original.svg" alt="Fusion 360" style="vertical-align: middle; margin-right: 5px;" /> Fusion 360<br/>

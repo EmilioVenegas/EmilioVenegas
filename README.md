@@ -1,7 +1,5 @@
 # Hi, I'm Emilio Venegas 👋
 
-**Computational Bioscience & Pharmaceutical Chemist** Passionate about bridging generative AI, manifold learning, and clinical diagnostics to advance structure-based drug discovery and translational medicine. 
-
 ### 🚀 Featured Research & Projects
 
 - **[Strider](https://github.com/EmilioVenegas/strider)**: A biophysical framework for nucleic acid thermodynamics, kinetics, and DNA/RNA circuit assembly. Computes ensemble free energies and maps toehold-mediated strand displacement (TMSD) landscapes natively without external dependencies.

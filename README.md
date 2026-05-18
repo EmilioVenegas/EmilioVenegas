@@ -70,13 +70,7 @@
   </tbody>
 </table>
 
----
-### 📈 GitHub Stats
 
-<div style="display:flex;flex-direction:row;justify-content:center;">
-  <img height="140"  src="https://github-readme-stats-salesp07.vercel.app/api?username=EmilioVenegas&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=5" alt="readme stats" style="margin: 0" /> 
-  
-</div>
 
 ### 🤝 Let's Connect
 <p align="left">

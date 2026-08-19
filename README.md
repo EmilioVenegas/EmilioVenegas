@@ -1,55 +1,45 @@
-# Hi, I'm Emilio Venegas 👋
+# Emilio Venegas
 
-### 🚀 Featured Research & Projects
+Computational biologist — geometric deep learning for structure-based drug design, and longitudinal
+modeling of clinical cohorts. B.Sc. Biosciences, Tecnológico de Monterrey (2026).
 
-- **[Strider](https://github.com/EmilioVenegas/strider)**: A biophysical framework for nucleic acid thermodynamics, kinetics, and DNA/RNA circuit assembly. Computes ensemble free energies and maps toehold-mediated strand displacement (TMSD) landscapes natively without external dependencies.
-- **[Mantis](https://github.com/EmilioVenegas/mantis)**: An open-source symbolic analyzer for Chemical Reaction Network Theory (CRNT). Bridges network topology with mass-action kinetics to generate symbolic ODEs and certify qualitative, parameter-independent structural stability guarantees.
-- **[LAVA: Latent Aging Velocity Atlas](https://github.com/EmilioVenegas/lava-atlas)**: Mapped continuous-time biological aging by compressing multi-domain clinical deficits into an 8D latent manifold via a β-VAE, integrated with Neural ODEs for longitudinal forecasting.
-- **[ATOMICA-Diffusion](https://github.com/EmilioVenegas/ATOMICA-Diffusion-Antibiotic-design)**: A unified pipeline for *de novo* antibiotic design. Developed an SE(3)-equivariant cross-attention mechanism to condition the DiffSBDD generative model on deep protein embeddings.
-- **[Arq Molecular Engineering](https://github.com/EmilioVenegas/arq-molecular-engineering)**: An autonomous AI multi-agent system (CrewAI/LangGraph) using graph-based state machines to optimize molecules based on structural guardrails and RDKit calculations.
+### Selected work
 
----
+| Project | What it does, and what it showed |
+|---|---|
+| **[metal-aware-sbdd](https://github.com/EmilioVenegas/metal-aware-sbdd)** | Published 3D generative models (DiffSBDD, TargetDiff, Pocket2Mol) delete catalytic metal ions during preprocessing — found by reading their source. On a curated 133-target zinc benchmark they coordinate zinc validly in 20% of molecules against a 77% native-ligand ceiling, and fine-tuning on more metalloprotein data makes it worse, not better. Analysis plans pre-registered before the data; repair in progress. |
+| **[strider](https://github.com/EmilioVenegas/strider)** | Nucleic acid thermodynamics and kinetics in pure Python: nearest-neighbor free energies, O(n³) folding (Zuker, McCaskill), strand-displacement rate constants, parallel-tempered sequence design. |
+| **[cadence](https://github.com/EmilioVenegas/cadence)** | Latent Neural ODE–VAE over six waves of the Mexican Health and Aging Study; 34 clinical deficits compressed to an 8D manifold with aging velocity as output. Cognitive-decline AUC 0.72 → 0.79, functional 0.67 → 0.75, patient-level 5-fold CV. |
+| **[ATOMICA-Diffusion](https://github.com/EmilioVenegas/ATOMICA-Diffusion-Antibiotic-design)** | De novo antibiotic design against multidrug-resistant *A. baumannii*, *P. aeruginosa*, *K. pneumoniae*. Conditions DiffSBDD on ATOMICA pocket embeddings through an SE(3)-equivariant cross-graph convolution, with an evolutionary RL loop over ADMET endpoints. |
+| **[mantis-delta](https://github.com/EmilioVenegas/mantis-delta)** | Chemical reaction network theory under mass-action kinetics: network invariants, symbolic ODEs and Jacobians via SymPy, stability certified from topology alone. |
 
-### 🛠️ Tech Stack & Skills
+<!-- Restore this row when the code is public:
+| **Gram-stain identification** | Self-attention Multiple Instance Learning over ViT patch embeddings, 5,828 standardized clinical isolates: 0.947 accuracy on Gram class, 0.876 at species level. With clinical microbiologists at Hospital Civil de Guadalajara. Manuscript under review; code not yet public. |
+-->
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th align="left">Programming</th>
-      <th align="left">AI / ML / Data</th>
-      <th align="left">Systems & Web</th>
-      <th align="left">Bio-Design & Lab</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td valign="top">
-        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" style="vertical-align: middle; margin-right: 5px;" /> Python<br/>
-        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" style="vertical-align: middle; margin-right: 5px;" /> C++<br/>
-        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" alt="R" style="vertical-align: middle; margin-right: 5px;" /> R<br/>
-        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" style="vertical-align: middle; margin-right: 5px;" /> TypeScript<br/>
-      </td>
-      <td valign="top">
-        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch" style="vertical-align: middle; margin-right: 5px;" /> PyTorch<br/>
-        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" style="vertical-align: middle; margin-right: 5px;" /> TensorFlow<br/>
-        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Pandas" style="vertical-align: middle; margin-right: 5px;" /> NumPy / Pandas<br/>
-        <img width="22px" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langgraph-color.png" alt="LangChain" style="vertical-align: middle; margin-right: 5px;" /> LangGraph
-      </td>
-      <td valign="top">
-        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" style="vertical-align: middle; margin-right: 5px;" /> React<br/>
-        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="FastAPI" style="vertical-align: middle; margin-right: 5px;" /> FastAPI<br/>
-        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" style="vertical-align: middle; margin-right: 5px;" /> Docker<br/>
-        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi" style="vertical-align: middle; margin-right: 5px;" /> Embedded (ESP32/Pi)
-      </td>
-      <td valign="top">
-        <img width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fusion/fusion-original.svg" alt="Fusion 360" style="vertical-align: middle; margin-right: 5px;" /> CAD (Fusion 360/Rhino)<br/>
-        <img width="22px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Bioinformatics" style="vertical-align: middle; margin-right: 5px;" /> Genomic Data Analysis<br/>
-        🔬 Organic Synthesis & PCR<br/>
-        📊 Flow Cytometry & Cell Culture
-      </td>
-    </tr>
-  </tbody>
-</table>
+Also public: **[VAMprinting](https://github.com/EmilioVenegas/VAMprinting)** — web controller for
+volumetric additive manufacturing printers, from instrumentation work at Brigham and Women's
+Hospital / Harvard Medical School · **[arq](https://github.com/EmilioVenegas/arq-molecular-engineering)**
+— LangGraph agents for molecular design over SMILES ·
+**[CancerSense](https://github.com/EmilioVenegas/breast-cancer-app)** — mammography CNN on INbreast
+and DDSM
+
+Not on GitHub: a self-attention Multiple Instance Learning model identifying bacterial pathogens
+from Gram-stained clinical images — 0.947 accuracy on Gram class, 0.876 at species level over 5,828
+clinical isolates, built with microbiologists at Hospital Civil de Guadalajara.
+
+### Toolbox
+
+Python · PyTorch · SE(3)-equivariant GNNs (e3nn) · diffusion models · Neural ODEs · Vision
+Transformers · scikit-learn · conformal prediction · R · C++ · SQL · Docker · Linux · GPU/HPC
+RDKit · AutoDock Vina · Boltz-2 · ADMET-AI · CrossDocked curation · Fiji
+Bench: cell culture, 3D spheroids, qPCR, flow cytometry, Western blotting, organic synthesis
+
+### Elsewhere
+
+Gold Medal, Iberoamerican Chemistry Olympiad (2021) · Bronze Medal, 53rd International Chemistry
+Olympiad (2021)
+
 
 
 

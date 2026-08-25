@@ -15,7 +15,7 @@
 
 ---
 
-### `01 //` Selected Work
+### `01 // Selected Work`
 
 > ### **01 &nbsp;·&nbsp; [metal-aware-sbdd](https://github.com/EmilioVenegas/metal-aware-sbdd)**
 > <kbd>SBDD</kbd> <kbd>3D Diffusion</kbd> <kbd>Benchmarking</kbd>
@@ -44,7 +44,7 @@
 
 ---
 
-### `02 //` Technical Toolbox
+### `02 // Technical Toolbox`
 
 * **Machine Learning & AI:** `PyTorch` &nbsp;·&nbsp; `Graph Neural Networks` &nbsp;·&nbsp; `SE(3)-equivariant GNNs (e3nn, EGNN)` &nbsp;·&nbsp; `Diffusion models (DiffSBDD)` &nbsp;·&nbsp; `Neural ODEs` &nbsp;·&nbsp; `VAEs` &nbsp;·&nbsp; `Reinforcement Learning` &nbsp;·&nbsp; `Foundation Models (ATOMICA)` &nbsp;·&nbsp; `Multiple Instance Learning (MIL)` &nbsp;·&nbsp; `Vision Transformers` &nbsp;·&nbsp; `scikit-learn` &nbsp;·&nbsp; `TensorFlow`
 * **Drug Discovery & Cheminformatics:** `RDKit` &nbsp;·&nbsp; `Structure-based drug design` &nbsp;·&nbsp; `AutoDock Vina` &nbsp;·&nbsp; `Boltz-2` &nbsp;·&nbsp; `ADMET-AI` &nbsp;·&nbsp; `CrossDocked curation` &nbsp;·&nbsp; `SMILES` &nbsp;·&nbsp; `Tanimoto similarity` &nbsp;·&nbsp; `REOS filters` &nbsp;·&nbsp; `Lipinski rules`
@@ -54,7 +54,7 @@
 
 ---
 
-### `03 //` Elsewhere & Honors
+### `03 // Elsewhere & Honors`
 
 * **Profiles:** 🌐 [emiliovenegas.github.io](https://emiliovenegas.github.io) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/emiliovenegas) &nbsp;·&nbsp; 🆔 [ORCID: 0000-0002-7689-9185](https://orcid.org/0000-0002-7689-9185)
 * **Honors:** 🥇 Gold Medal, Iberoamerican Chemistry Olympiad (2021) &nbsp;·&nbsp; 🥉 Bronze Medal, 53rd International Chemistry Olympiad (2021)

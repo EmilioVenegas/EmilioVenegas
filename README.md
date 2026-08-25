@@ -7,7 +7,7 @@ modeling of clinical cohorts. B.Sc. Biosciences, Tecnológico de Monterrey (2026
 
 | Project | What it does, and what it showed |
 |---|---|
-| **[metal-aware-sbdd](https://github.com/EmilioVenegas/metal-aware-sbdd)** | Published 3D generative models (DiffSBDD, TargetDiff, Pocket2Mol) delete catalytic metal ions during preprocessing — found by reading their source. On a curated 133-target zinc benchmark they coordinate zinc validly in 20% of molecules against a 77% native-ligand ceiling, and fine-tuning on more metalloprotein data makes it worse, not better. Analysis plans pre-registered before the data; repair in progress. |
+| **[metal-aware-sbdd](https://github.com/EmilioVenegas/metal-aware-sbdd)** | Published 3D generative models strip catalytic metal ions during preprocessing, found by reading the source. A pre-registered four-arm ablation showed that more metalloprotein training worsens coordination, a metal-aware LoRA adapter improves it but misses the registered threshold, and the defect replicates field-wide on TargetDiff and Pocket2Mol. Manuscript in preparation. |
 | **[strider](https://github.com/EmilioVenegas/strider)** | Nucleic acid thermodynamics and kinetics in pure Python: nearest-neighbor free energies, O(n³) folding (Zuker, McCaskill), strand-displacement rate constants, parallel-tempered sequence design. |
 | **[cadence](https://github.com/EmilioVenegas/cadence)** | Latent Neural ODE–VAE over six waves of the Mexican Health and Aging Study; 34 clinical deficits compressed to an 8D manifold with aging velocity as output. Cognitive-decline AUC 0.72 → 0.79, functional 0.67 → 0.75, patient-level 5-fold CV. |
 | **[ATOMICA-Diffusion](https://github.com/EmilioVenegas/ATOMICA-Diffusion-Antibiotic-design)** | De novo antibiotic design against multidrug-resistant *A. baumannii*, *P. aeruginosa*, *K. pneumoniae*. Conditions DiffSBDD on ATOMICA pocket embeddings through an SE(3)-equivariant cross-graph convolution, with an evolutionary RL loop over ADMET endpoints. |
@@ -40,16 +40,3 @@ Bench: cell culture, 3D spheroids, qPCR, flow cytometry, Western blotting, organ
 Gold Medal, Iberoamerican Chemistry Olympiad (2021) · Bronze Medal, 53rd International Chemistry
 Olympiad (2021)
 
-
-
-
-### 🤝 Let's Connect
-<p align="left">
-  <a href="https://www.linkedin.com/in/emiliovenegas" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  &nbsp;
-  <a href="mailto:emiliovenegas10@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
